@@ -1,0 +1,313 @@
+Logfile created on: 04/08/21 17:28:18\n
+--2021-04-08 17:28:18--  https://raw.githubusercontent.com/GermanBread/Bash-Scripts/master/appimage-helper/appimage-helper.sh
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens raw.githubusercontent.com (raw.githubusercontent.com)… 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Verbindungsaufbau zu raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 3013 (2,9K) [text/plain]
+Wird in »appimage-helper.sh« gespeichert.
+
+     0K ..                                                    100% 35,5M=0s
+
+»Last-modified«-Kopfzeile fehlt -- Zeitstempel abgeschaltet.
+2021-04-08 17:28:18 (35,5 MB/s) - »appimage-helper.sh« gespeichert [3013/3013]
+
+Logfile created on: 04/08/21 17:28:35\n
+--2021-04-08 17:28:35--  https://github.com/AppImage/AppImageKit/releases/latest/download/AppRun-x86_64
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens github.com (github.com)… 140.82.121.3
+Verbindungsaufbau zu github.com (github.com)|140.82.121.3|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github.com/AppImage/AppImageKit/releases/download/12/AppRun-x86_64 [folgend]
+--2021-04-08 17:28:35--  https://github.com/AppImage/AppImageKit/releases/download/12/AppRun-x86_64
+Wiederverwendung der bestehenden Verbindung zu github.com:443.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github-releases.githubusercontent.com/9435153/b7e80680-6c54-11e9-85d7-1c3fdcaba6d1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T152835Z&X-Amz-Expires=300&X-Amz-Signature=341a51c7719a8b35566622d04f6b699786f2735db244266a805e38325538fc83&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3DAppRun-x86_64&response-content-type=application%2Foctet-stream [folgend]
+--2021-04-08 17:28:35--  https://github-releases.githubusercontent.com/9435153/b7e80680-6c54-11e9-85d7-1c3fdcaba6d1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T152835Z&X-Amz-Expires=300&X-Amz-Signature=341a51c7719a8b35566622d04f6b699786f2735db244266a805e38325538fc83&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3DAppRun-x86_64&response-content-type=application%2Foctet-stream
+Auflösen des Hostnamens github-releases.githubusercontent.com (github-releases.githubusercontent.com)… 185.199.108.154, 185.199.109.154, 185.199.110.154, ...
+Verbindungsaufbau zu github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.108.154|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 10872 (11K) [application/octet-stream]
+Wird in »GermanBread.AppImageUpdater/AppRun« gespeichert.
+
+     0K ..........                                            100% 15,0M=0,001s
+
+2021-04-08 17:28:35 (15,0 MB/s) - »GermanBread.AppImageUpdater/AppRun« gespeichert [10872/10872]
+
+--2021-04-08 17:28:35--  https://raw.githubusercontent.com/GermanBread/Bash-Scripts/master/appimage-helper/template.png
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens raw.githubusercontent.com (raw.githubusercontent.com)… 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Verbindungsaufbau zu raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 6003 (5,9K) [image/png]
+Wird in »GermanBread.AppImageUpdater/GermanBread.AppImageUpdater.png« gespeichert.
+
+     0K .....                                                 100% 23,4M=0s
+
+2021-04-08 17:28:36 (23,4 MB/s) - »GermanBread.AppImageUpdater/GermanBread.AppImageUpdater.png« gespeichert [6003/6003]
+
+--2021-04-08 17:28:36--  https://raw.githubusercontent.com/GermanBread/Bash-Scripts/master/appimage-helper/templatescript
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens raw.githubusercontent.com (raw.githubusercontent.com)… 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Verbindungsaufbau zu raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 163 [text/plain]
+Wird in »GermanBread.AppImageUpdater/usr/bin/GermanBread.AppImageUpdater« gespeichert.
+
+     0K                                                       100% 19,0M=0s
+
+2021-04-08 17:28:36 (19,0 MB/s) - »GermanBread.AppImageUpdater/usr/bin/GermanBread.AppImageUpdater« gespeichert [163/163]
+
+--2021-04-08 17:28:36--  https://raw.githubusercontent.com/GermanBread/Bash-Scripts/master/appimage-helper/template.desktop
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens raw.githubusercontent.com (raw.githubusercontent.com)… 185.199.111.133, 185.199.109.133, 185.199.108.133, ...
+Verbindungsaufbau zu raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 92 [text/plain]
+Wird in »GermanBread.AppImageUpdater/GermanBread.AppImageUpdater.desktop« gespeichert.
+
+     0K                                                       100% 10,4M=0s
+
+2021-04-08 17:28:37 (10,4 MB/s) - »GermanBread.AppImageUpdater/GermanBread.AppImageUpdater.desktop« gespeichert [92/92]
+
+Logfile created on: 04/08/21 17:28:44\n
+--2021-04-08 17:28:44--  https://github.com/AppImage/AppImageKit/releases/latest/download/appimagetool-x86_64.AppImage
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens github.com (github.com)… 140.82.121.3
+Verbindungsaufbau zu github.com (github.com)|140.82.121.3|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage [folgend]
+--2021-04-08 17:28:44--  https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
+Wiederverwendung der bestehenden Verbindung zu github.com:443.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github-releases.githubusercontent.com/9435153/b74f7000-6c54-11e9-90c2-1f11aaf02f75?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T152845Z&X-Amz-Expires=300&X-Amz-Signature=b84e240f7c9f7ae507630ca220785a2c766cacdb0f9c2a6912665ee15256340b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3Dappimagetool-x86_64.AppImage&response-content-type=application%2Foctet-stream [folgend]
+--2021-04-08 17:28:45--  https://github-releases.githubusercontent.com/9435153/b74f7000-6c54-11e9-90c2-1f11aaf02f75?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T152845Z&X-Amz-Expires=300&X-Amz-Signature=b84e240f7c9f7ae507630ca220785a2c766cacdb0f9c2a6912665ee15256340b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3Dappimagetool-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Auflösen des Hostnamens github-releases.githubusercontent.com (github-releases.githubusercontent.com)… 185.199.108.154, 185.199.109.154, 185.199.110.154, ...
+Verbindungsaufbau zu github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.108.154|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 1974248 (1,9M) [application/octet-stream]
+Wird in »appimagetool-x86_64.AppImage« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  2% 4,17M 0s
+    50K .......... .......... .......... .......... ..........  5% 6,21M 0s
+   100K .......... .......... .......... .......... ..........  7% 3,76M 0s
+   150K .......... .......... .......... .......... .......... 10% 3,64M 0s
+   200K .......... .......... .......... .......... .......... 12% 8,46M 0s
+   250K .......... .......... .......... .......... .......... 15% 5,96M 0s
+   300K .......... .......... .......... .......... .......... 18% 3,40M 0s
+   350K .......... .......... .......... .......... .......... 20% 2,65M 0s
+   400K .......... .......... .......... .......... .......... 23% 5,71M 0s
+   450K .......... .......... .......... .......... .......... 25% 4,15M 0s
+   500K .......... .......... .......... .......... .......... 28% 4,58M 0s
+   550K .......... .......... .......... .......... .......... 31% 5,30M 0s
+   600K .......... .......... .......... .......... .......... 33% 6,81M 0s
+   650K .......... .......... .......... .......... .......... 36% 3,74M 0s
+   700K .......... .......... .......... .......... .......... 38% 3,93M 0s
+   750K .......... .......... .......... .......... .......... 41% 3,29M 0s
+   800K .......... .......... .......... .......... .......... 44% 3,95M 0s
+   850K .......... .......... .......... .......... .......... 46% 7,27M 0s
+   900K .......... .......... .......... .......... .......... 49% 3,84M 0s
+   950K .......... .......... .......... .......... .......... 51% 7,89M 0s
+  1000K .......... .......... .......... .......... .......... 54% 4,05M 0s
+  1050K .......... .......... .......... .......... .......... 57% 7,08M 0s
+  1100K .......... .......... .......... .......... .......... 59% 5,50M 0s
+  1150K .......... .......... .......... .......... .......... 62% 2,86M 0s
+  1200K .......... .......... .......... .......... .......... 64% 3,43M 0s
+  1250K .......... .......... .......... .......... .......... 67% 12,6M 0s
+  1300K .......... .......... .......... .......... .......... 70% 4,74M 0s
+  1350K .......... .......... .......... .......... .......... 72% 6,13M 0s
+  1400K .......... .......... .......... .......... .......... 75% 3,65M 0s
+  1450K .......... .......... .......... .......... .......... 77% 7,03M 0s
+  1500K .......... .......... .......... .......... .......... 80% 7,23M 0s
+  1550K .......... .......... .......... .......... .......... 82% 5,82M 0s
+  1600K .......... .......... .......... .......... .......... 85% 2,37M 0s
+  1650K .......... .......... .......... .......... .......... 88% 6,04M 0s
+  1700K .......... .......... .......... .......... .......... 90% 8,29M 0s
+  1750K .......... .......... .......... .......... .......... 93% 4,13M 0s
+  1800K .......... .......... .......... .......... .......... 95% 4,65M 0s
+  1850K .......... .......... .......... .......... .......... 98% 7,37M 0s
+  1900K .......... .......... .......                         100% 11,9M=0,4s
+
+2021-04-08 17:28:45 (4,70 MB/s) - »appimagetool-x86_64.AppImage« gespeichert [1974248/1974248]
+
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+Deleting pre-existing .DirIcon
+Creating .DirIcon symlink based on information from desktop file
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===================================================================|] 4/4 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 11.03 Kbytes (0.01 Mbytes)
+	63.15% of uncompressed filesystem size (17.46 Kbytes)
+Inode table size 155 bytes (0.15 Kbytes)
+	55.16% of uncompressed inode table size (281 bytes)
+Directory table size 126 bytes (0.12 Kbytes)
+	60.87% of uncompressed directory table size (207 bytes)
+Number of duplicate files found 0
+Number of inodes 8
+Number of files 4
+Number of fragments 1
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:31:17\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.09 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.80 Kbytes)
+Inode table size 3783 bytes (3.69 Kbytes)
+	44.16% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:31:56\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.00 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.65 Kbytes)
+Inode table size 3784 bytes (3.70 Kbytes)
+	44.17% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 18:31:36\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.33 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.15 Kbytes)
+Inode table size 3784 bytes (3.70 Kbytes)
+	44.17% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n

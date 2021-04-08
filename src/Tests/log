@@ -1,0 +1,734 @@
+Logfile created on: 04/08/21 17:35:04\n
+--2021-04-08 17:35:04--  https://github.com/AppImage/AppImageKit/releases/latest/download/appimagetool-x86_64.AppImage
+CA-Zertifikat »/etc/ssl/certs/ca-certificates.crt« wurde geladen
+Auflösen des Hostnamens github.com (github.com)… 140.82.121.3
+Verbindungsaufbau zu github.com (github.com)|140.82.121.3|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage [folgend]
+--2021-04-08 17:35:04--  https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
+Wiederverwendung der bestehenden Verbindung zu github.com:443.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 302 Found
+Platz: https://github-releases.githubusercontent.com/9435153/b74f7000-6c54-11e9-90c2-1f11aaf02f75?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T153504Z&X-Amz-Expires=300&X-Amz-Signature=3463b3ce17f66ee56b96d4fb03cc892f110a4765dee31a8e4d91fcce5782bd3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3Dappimagetool-x86_64.AppImage&response-content-type=application%2Foctet-stream [folgend]
+--2021-04-08 17:35:04--  https://github-releases.githubusercontent.com/9435153/b74f7000-6c54-11e9-90c2-1f11aaf02f75?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20210408%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210408T153504Z&X-Amz-Expires=300&X-Amz-Signature=3463b3ce17f66ee56b96d4fb03cc892f110a4765dee31a8e4d91fcce5782bd3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=9435153&response-content-disposition=attachment%3B%20filename%3Dappimagetool-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Auflösen des Hostnamens github-releases.githubusercontent.com (github-releases.githubusercontent.com)… 185.199.108.154, 185.199.109.154, 185.199.110.154, ...
+Verbindungsaufbau zu github-releases.githubusercontent.com (github-releases.githubusercontent.com)|185.199.108.154|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 1974248 (1,9M) [application/octet-stream]
+Wird in »appimagetool-x86_64.AppImage« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  2% 3,16M 1s
+    50K .......... .......... .......... .......... ..........  5% 11,8M 0s
+   100K .......... .......... .......... .......... ..........  7% 6,43M 0s
+   150K .......... .......... .......... .......... .......... 10% 8,31M 0s
+   200K .......... .......... .......... .......... .......... 12% 8,80M 0s
+   250K .......... .......... .......... .......... .......... 15% 15,1M 0s
+   300K .......... .......... .......... .......... .......... 18% 11,3M 0s
+   350K .......... .......... .......... .......... .......... 20% 13,9M 0s
+   400K .......... .......... .......... .......... .......... 23% 13,8M 0s
+   450K .......... .......... .......... .......... .......... 25% 14,2M 0s
+   500K .......... .......... .......... .......... .......... 28% 10,7M 0s
+   550K .......... .......... .......... .......... .......... 31% 7,85M 0s
+   600K .......... .......... .......... .......... .......... 33% 22,2M 0s
+   650K .......... .......... .......... .......... .......... 36% 10,2M 0s
+   700K .......... .......... .......... .......... .......... 38% 19,8M 0s
+   750K .......... .......... .......... .......... .......... 41% 11,9M 0s
+   800K .......... .......... .......... .......... .......... 44% 17,9M 0s
+   850K .......... .......... .......... .......... .......... 46% 12,4M 0s
+   900K .......... .......... .......... .......... .......... 49% 21,4M 0s
+   950K .......... .......... .......... .......... .......... 51% 16,3M 0s
+  1000K .......... .......... .......... .......... .......... 54% 12,0M 0s
+  1050K .......... .......... .......... .......... .......... 57% 18,3M 0s
+  1100K .......... .......... .......... .......... .......... 59% 7,84M 0s
+  1150K .......... .......... .......... .......... .......... 62% 22,6M 0s
+  1200K .......... .......... .......... .......... .......... 64% 20,6M 0s
+  1250K .......... .......... .......... .......... .......... 67% 12,8M 0s
+  1300K .......... .......... .......... .......... .......... 70% 28,4M 0s
+  1350K .......... .......... .......... .......... .......... 72% 15,7M 0s
+  1400K .......... .......... .......... .......... .......... 75% 21,3M 0s
+  1450K .......... .......... .......... .......... .......... 77% 15,4M 0s
+  1500K .......... .......... .......... .......... .......... 80% 20,1M 0s
+  1550K .......... .......... .......... .......... .......... 82% 25,9M 0s
+  1600K .......... .......... .......... .......... .......... 85% 17,0M 0s
+  1650K .......... .......... .......... .......... .......... 88% 22,9M 0s
+  1700K .......... .......... .......... .......... .......... 90% 25,4M 0s
+  1750K .......... .......... .......... .......... .......... 93% 19,4M 0s
+  1800K .......... .......... .......... .......... .......... 95% 18,9M 0s
+  1850K .......... .......... .......... .......... .......... 98% 31,5M 0s
+  1900K .......... .......... .......                         100% 6,08M=0,1s
+
+2021-04-08 17:35:05 (12,8 MB/s) - »appimagetool-x86_64.AppImage« gespeichert [1974248/1974248]
+
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.68 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.38 Kbytes)
+Inode table size 3775 bytes (3.69 Kbytes)
+	44.06% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:36:29\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.70 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.37 Kbytes)
+Inode table size 3780 bytes (3.69 Kbytes)
+	44.12% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:44:06\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.83 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.97 Kbytes)
+Inode table size 3777 bytes (3.69 Kbytes)
+	44.09% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:45:14\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.87 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73604.98 Kbytes)
+Inode table size 3783 bytes (3.69 Kbytes)
+	44.16% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:50:18\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.95 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.02 Kbytes)
+Inode table size 3782 bytes (3.69 Kbytes)
+	44.15% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:52:03\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.01 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.05 Kbytes)
+Inode table size 3786 bytes (3.70 Kbytes)
+	44.19% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:54:00\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.19 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.56 Kbytes)
+Inode table size 3784 bytes (3.70 Kbytes)
+	44.17% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:54:29\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.20 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.56 Kbytes)
+Inode table size 3784 bytes (3.70 Kbytes)
+	44.17% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:54:49\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.23 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.57 Kbytes)
+Inode table size 3786 bytes (3.70 Kbytes)
+	44.19% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:55:30\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.23 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.57 Kbytes)
+Inode table size 3791 bytes (3.70 Kbytes)
+	44.25% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:56:04\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.29 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.58 Kbytes)
+Inode table size 3786 bytes (3.70 Kbytes)
+	44.19% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:57:53\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.93 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.58 Kbytes)
+Inode table size 3784 bytes (3.70 Kbytes)
+	44.17% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 17:59:25\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30582.95 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73605.58 Kbytes)
+Inode table size 3787 bytes (3.70 Kbytes)
+	44.20% of uncompressed inode table size (8567 bytes)
+Directory table size 2615 bytes (2.55 Kbytes)
+	37.62% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 18:00:08\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.32 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.15 Kbytes)
+Inode table size 3783 bytes (3.69 Kbytes)
+	44.16% of uncompressed inode table size (8567 bytes)
+Directory table size 2617 bytes (2.56 Kbytes)
+	37.65% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 18:00:50\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.30 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.15 Kbytes)
+Inode table size 3782 bytes (3.69 Kbytes)
+	44.15% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
