@@ -21,7 +21,7 @@ dotnet add package GermanBread.AppImageUpdater
 ### Include namespace in your project
 
 ```cs
-using GermanBread.AppImageUpdater
+using GermanBread.AppImageUpdater;
 ```
 
 ### Download an update
@@ -45,5 +45,5 @@ Updater.Update();
 
 ## Compiling from source
 
-1. Navigate into src/GermanBread.AppImageUpdater
+1. Navigate into `src/GermanBread.AppImageUpdater`
 2. Open terminal and run `dotnet build -o build`
