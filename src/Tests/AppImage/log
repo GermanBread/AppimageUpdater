@@ -311,3 +311,273 @@ central directory of available AppImages, by opening a pull request
 at https://github.com/AppImage/appimage.github.io
 /home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
 \n
+Logfile created on: 04/08/21 22:04:45\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.59 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3787 bytes (3.70 Kbytes)
+	44.20% of uncompressed inode table size (8567 bytes)
+Directory table size 2615 bytes (2.55 Kbytes)
+	37.62% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 22:05:58\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.60 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3789 bytes (3.70 Kbytes)
+	44.23% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 22:06:43\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================\] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.59 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3788 bytes (3.70 Kbytes)
+	44.22% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 22:08:22\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.57 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3786 bytes (3.70 Kbytes)
+	44.19% of uncompressed inode table size (8567 bytes)
+Directory table size 2615 bytes (2.55 Kbytes)
+	37.62% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 22:08:42\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.57 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3787 bytes (3.70 Kbytes)
+	44.20% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n
+Logfile created on: 04/08/21 22:09:28\n
+appimagetool, continuous build (commit effcebc), build 2084 built on 2019-05-01 21:02:41 UTC
+Using architecture x86_64
+WARNING: AppStream upstream metadata is missing, please consider creating it
+         in usr/share/metainfo/GermanBread.AppImageUpdater.appdata.xml
+         Please see https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html#sect-Quickstart-DesktopApps
+         for more information or use the generator at http://output.jsbin.com/qoqukof.
+Generating squashfs...
+Parallel mksquashfs: Using 16 processors
+Creating 4.0 filesystem on GermanBread.AppImageUpdater-x86_64.AppImage, block size 131072.
+[===============================================================-] 701/701 100%
+
+Exportable Squashfs 4.0 filesystem, gzip compressed, data block size 131072
+	compressed data, compressed metadata, compressed fragments, compressed xattrs
+	duplicates are removed
+Filesystem size 30583.57 Kbytes (29.87 Mbytes)
+	41.55% of uncompressed filesystem size (73606.66 Kbytes)
+Inode table size 3787 bytes (3.70 Kbytes)
+	44.20% of uncompressed inode table size (8567 bytes)
+Directory table size 2616 bytes (2.55 Kbytes)
+	37.63% of uncompressed directory table size (6951 bytes)
+Number of duplicate files found 0
+Number of inodes 196
+Number of files 192
+Number of fragments 50
+Number of symbolic links  1
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 3
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	root (0)
+Number of gids 1
+	root (0)
+Embedding ELF...
+Marking the AppImage as executable...
+Embedding MD5 digest
+Success
+
+Please consider submitting your AppImage to AppImageHub, the crowd-sourced
+central directory of available AppImages, by opening a pull request
+at https://github.com/AppImage/appimage.github.io
+/home/unsigned-bool/Dokumente/Kodeing/C#/WIP/AppimageUpdater/src/Tests/AppImage/GermanBread.AppImageUpdater should be packaged as GermanBread.AppImageUpdater-x86_64.AppImage
+\n

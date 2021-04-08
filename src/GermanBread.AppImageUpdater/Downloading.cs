@@ -26,9 +26,9 @@ namespace GermanBread.AppImageUpdater
                 return false;
             }
 
-            if (!DownloadFile(Config.URL, _downloadName))
+            if (!DownloadFile(Config.URL, Path.Combine(AppImageDir, _downloadName)))
                 if (!string.IsNullOrEmpty(Config.AlternateURL)
-                 || !DownloadFile(Config.AlternateURL, _downloadName))
+                 || !DownloadFile(Config.AlternateURL, Path.Combine(AppImageDir, _downloadName)))
                     return false;
             
             ready = true;
