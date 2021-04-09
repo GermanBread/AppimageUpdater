@@ -18,7 +18,9 @@ This library makes updating your Linux-AppImages dead simple
 dotnet add package GermanBread.AppImageUpdater
 ```
 
-### Include namespace in your project
+*Want to see an example that you can just copy and paste? Take a look into `src/Tests/Program.cs`!*
+
+### Include the namespace in your project
 
 ```cs
 using GermanBread.AppImageUpdater;

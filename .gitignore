@@ -2,3 +2,8 @@
 build
 bin
 obj
+
+# Tests-specific stuff, 1 is left in here for this commit
+latest_appimage1
+log1
+*.AppImage1

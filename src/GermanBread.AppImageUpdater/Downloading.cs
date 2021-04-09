@@ -13,7 +13,7 @@ namespace GermanBread.AppImageUpdater
         public static bool IsReadyForUpdate { get => ready; }
 
         private static bool ready;
-        private static string downloadPath = Path.Combine(AppImageDir, "." + AppDomain.CurrentDomain.FriendlyName + ".new");
+        private static string downloadPath = Path.Combine(AppImageDir ?? Environment.CurrentDirectory, "." + AppDomain.CurrentDomain.FriendlyName + ".new");
 
         /// <summary>
         /// Downloads the update using the provided configuration
