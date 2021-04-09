@@ -20,7 +20,7 @@ namespace GermanBread.AppImageUpdater
         /// The directory the AppImage is located in
         /// </summary>
         /// <returns></returns>
-        public static string AppImageDir { get; } = Path.GetDirectoryName(Environment.GetEnvironmentVariable("APPIMAGE"));
+        public static string AppImageDir { get => Path.GetDirectoryName(Environment.GetEnvironmentVariable("APPIMAGE")); }
         public static LogMessage LastError { get => logs.FirstOrDefault((x) => (x.Severity <= Logseverity.Error)); }
         public static LogMessage LastLog { get => logs.FirstOrDefault(); }
         public static IReadOnlyCollection<LogMessage> Logs { get => logs; }

@@ -2,6 +2,9 @@
 using System;
 using System.IO;
 
+// Mono.Posix
+using Mono.Unix;
+
 namespace GermanBread.AppImageUpdater
 {
     public static partial class Updater
@@ -28,7 +31,19 @@ namespace GermanBread.AppImageUpdater
             }
             catch (Exception ex) {
                 // I'd be very suprised if this throws an exception
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown", ex));
+                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
+                return false;
+            }
+            
+            // Mark as executable
+            logs.Add(new LogMessage(Logseverity.Info, "Updater.Update", "Marking as executable"));
+            try {
+                var _file = UnixFileInfo.GetFileSystemEntry(downloadPath);
+                // This will do for now...
+                _file.FileAccessPermissions = FileAccessPermissions.UserReadWriteExecute;
+            }
+            catch (Exception ex) {
+                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
                 return false;
             }
             
@@ -36,10 +51,10 @@ namespace GermanBread.AppImageUpdater
             logs.Add(new LogMessage(Logseverity.Info, "Updater.Update", "Overwriting"));
             try {
                 File.Delete(AppImagePath);
-                File.Move(Path.Combine(AppImageDir, _downloadName), AppImagePath);
+                File.Move(downloadPath, AppImagePath);
             }
             catch (Exception ex) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown", ex));
+                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
                 return false;
             }
 
@@ -49,7 +64,7 @@ namespace GermanBread.AppImageUpdater
                 File.Delete(AppImagePath + "~");
             }
             catch (Exception ex) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown", ex));
+                logs.Add(new LogMessage(Logseverity.Error, "Updater.Update", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
                 return false;
             }
 

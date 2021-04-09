@@ -13,7 +13,7 @@ namespace GermanBread.AppImageUpdater
         public static bool IsReadyForUpdate { get => ready; }
 
         private static bool ready;
-        private static string _downloadName = AppDomain.CurrentDomain.FriendlyName + ".new";
+        private static string downloadPath = Path.Combine(AppImageDir, "." + AppDomain.CurrentDomain.FriendlyName + ".new");
 
         /// <summary>
         /// Downloads the update using the provided configuration
@@ -26,9 +26,12 @@ namespace GermanBread.AppImageUpdater
                 return false;
             }
 
-            if (!DownloadFile(Config.URL, Path.Combine(AppImageDir, _downloadName)))
+            if (!string.IsNullOrEmpty(Config.DownloadedFilePath))
+                downloadPath = Path.IsPathRooted(Config.DownloadedFilePath) ? Config.DownloadedFilePath : Path.Combine(AppImageDir, Config.DownloadedFilePath);
+
+            if (!DownloadFile(Config.URL, downloadPath))
                 if (!string.IsNullOrEmpty(Config.AlternateURL)
-                 || !DownloadFile(Config.AlternateURL, Path.Combine(AppImageDir, _downloadName)))
+                 || !DownloadFile(Config.AlternateURL, downloadPath))
                     return false;
             
             ready = true;
@@ -44,13 +47,15 @@ namespace GermanBread.AppImageUpdater
                 logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", "This app is not packaged in an AppImage"));
                 return false;
             }
-            
+
             try {
-                File.Copy(Path.Combine(AppImageDir, FilePath), Path.Combine(AppImageDir, _downloadName), true);
+                string _file = Path.IsPathRooted(FilePath) ? FilePath : Path.Combine(AppImageDir, FilePath);
+                File.Copy(_file, downloadPath, true);
             } catch (Exception ex) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown", ex));
+                logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
                 return false;
             }
+            
             ready = true;
             return true;
         }
@@ -64,7 +69,7 @@ namespace GermanBread.AppImageUpdater
                     logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"The server responded with HTTP {wex.Status}", wex));
                     return false;
                 } catch (Exception ex) {
-                    logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown", ex));
+                    logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
                     return false;
                 }
             }
