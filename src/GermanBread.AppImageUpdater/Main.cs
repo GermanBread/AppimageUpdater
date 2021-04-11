@@ -9,7 +9,7 @@ namespace GermanBread.AppImageUpdater
     public static partial class Updater
     {
         /// <summary>
-        /// Whether or not the app is an AppImage
+        /// Whether or not the app is an AppImage.
         /// </summary>
         public static bool IsAppImage { get; } = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPIMAGE"));
         /// <summary>

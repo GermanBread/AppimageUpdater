@@ -1,8 +1,8 @@
-/// <summary>
-/// This struct contains the configuration needed for the updater to function
-/// </summary>
 namespace GermanBread.AppImageUpdater
 {
+    /// <summary>
+    /// This struct contains the configuration needed for the updater to function
+    /// </summary>
     public struct UpdateConfig
     {
         /// <summary>
