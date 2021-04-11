@@ -31,5 +31,18 @@ namespace GermanBread.AppImageUpdater
         /// The severity which (in the case of errors) can indicate the severity of such. 0 = most urgent
         /// </summary>
         public Logseverity Severity;
+
+        public override string ToString() {
+            string _output = "";
+            
+            _output += $"{Timestamp.ToShortDateString()} {Timestamp.ToShortTimeString()}: ";
+            _output += $"[{Severity.ToString()}, 8] ";
+            _output += $"{Source} - ";
+            _output += $"{Message}";
+            if (Exception != null)
+                _output += $"\n({Exception})";
+            
+            return _output;
+        }
     }
 }
