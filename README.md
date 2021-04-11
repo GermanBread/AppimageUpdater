@@ -20,6 +20,8 @@ dotnet add package GermanBread.AppImageUpdater
 
 *Want to see an example that you can just copy and paste? Take a look into `src/Tests/Program.cs`!*
 
+*Having trouble creating AppImages? [Use my AppImage helper script!](https://github.com/GermanBread/Bash-Scripts/tree/master/appimage-helper)*
+
 ### Include the namespace in your project
 
 ```cs

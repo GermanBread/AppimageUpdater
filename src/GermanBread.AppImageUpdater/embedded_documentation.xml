@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GermanBread.AppImageUpdater</name>
+    </assembly>
+    <members>
+        <member name="P:GermanBread.AppImageUpdater.Updater.IsReadyForUpdate">
+            <summary>
+            Whether or not the updater is ready
+            </summary>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.Updater.Download(GermanBread.AppImageUpdater.UpdateConfig)">
+            <summary>
+            Downloads the update using the provided configuration
+            </summary>
+            <param name="Config">The configuration</param>
+            <returns>TRUE if successful; If FALSE use Updater.LastError to get the error</returns>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.Updater.Download(System.String)">
+            <summary>
+            "Downloads" from a local file on the filesystem
+            </summary>
+            <param name="FilePath">Path to the file</param>
+            <returns>TRUE if successful; If FALSE use Updater.LastError to get the error</returns>
+        </member>
+        <member name="P:GermanBread.AppImageUpdater.Updater.IsAppImage">
+            <summary>
+            Whether or not the app is an AppImage.
+            </summary>
+        </member>
+        <member name="P:GermanBread.AppImageUpdater.Updater.AppImagePath">
+            <summary>
+            The full path to the AppImage
+            </summary>
+        </member>
+        <member name="P:GermanBread.AppImageUpdater.Updater.AppImageDir">
+            <summary>
+            The directory the AppImage is located in
+            </summary>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.Updater.Update">
+            <summary>
+            Starts the updating process.
+            </summary>
+            <returns>TRUE if successful; If FALSE use Updater.LastError to get the error</returns>
+        </member>
+        <member name="F:GermanBread.AppImageUpdater.LogMessage.Timestamp">
+            <summary>
+            Value which indicates when this message was created. In UTC time.
+            </summary>
+        </member>
+        <member name="F:GermanBread.AppImageUpdater.LogMessage.Severity">
+            <summary>
+            The severity which (in the case of errors) can indicate the severity of such. 0 = most urgent
+            </summary>
+        </member>
+        <member name="T:GermanBread.AppImageUpdater.UpdateConfig">
+            <summary>
+            This struct contains the configuration needed for the updater to function
+            </summary>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.UpdateConfig.#ctor(System.String)">
+            <summary>
+            Initializes the struct without a fallback URL
+            </summary>
+            <param name="URL">The server from which to download the AppImage</param>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.UpdateConfig.#ctor(System.String,System.String)">
+            <summary>
+            Initializes the struct with a fallback URL
+            </summary>
+            <param name="URL">The server from which to download the AppImage</param>
+            <param name="AlternateURL">Fallback URL</param>
+        </member>
+        <member name="M:GermanBread.AppImageUpdater.UpdateConfig.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes the struct with a download path
+            </summary>
+            <param name="URL">The server from which to download the AppImage</param>
+            <param name="AlternateURL">Fallback URL</param>
+            <param name="DownloadPath">Where to download the AppImage to</param>
+        </member>
+        <member name="F:GermanBread.AppImageUpdater.UpdateConfig.URL">
+            <summary>
+            The URL which will be used to download the AppImage
+            </summary>
+        </member>
+        <member name="F:GermanBread.AppImageUpdater.UpdateConfig.AlternateURL">
+            <summary>
+            Fallback URL in case the server returns a status code besides 2xx
+            </summary>
+        </member>
+        <member name="F:GermanBread.AppImageUpdater.UpdateConfig.DownloadedFilePath">
+            <summary>
+            Specifies the path where to download the updated AppImage to.
+            </summary>
+        </member>
+    </members>
+</doc>
