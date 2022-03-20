@@ -11,7 +11,7 @@ namespace GermanBread.AppImageUpdater
         /// <summary>
         /// Whether or not the app is an AppImage.
         /// </summary>
-        public static bool IsAppImage { get; } = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPIMAGE"));
+        private static bool IsAppImage { get; } = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPIMAGE"));
         /// <summary>
         /// The full path to the AppImage
         /// </summary>
@@ -20,10 +20,10 @@ namespace GermanBread.AppImageUpdater
         /// The directory the AppImage is located in
         /// </summary>
         public static string AppImageDir { get; } = Path.GetDirectoryName(AppImagePath);
-        public static LogMessage LastError { get => logs.FirstOrDefault((x) => (x.Severity <= Logseverity.Error)); }
-        public static LogMessage LastLog { get => logs.FirstOrDefault(); }
-        public static IReadOnlyCollection<LogMessage> Logs { get => logs; }
-        
+        public static LogMessage LastError => logs.FirstOrDefault(x => x.Severity <= LogSeverity.Error);
+        public static LogMessage LastLog => logs.FirstOrDefault();
+        public static IReadOnlyCollection<LogMessage> Logs => logs;
+
         private static List<LogMessage> logs = new List<LogMessage>();
     }
 }

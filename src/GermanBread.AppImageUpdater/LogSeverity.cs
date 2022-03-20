@@ -1,6 +1,6 @@
 namespace GermanBread.AppImageUpdater
 {
-    public enum Logseverity
+    public enum LogSeverity
     {
         Critical = 0,
         Error = 1,

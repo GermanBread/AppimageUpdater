@@ -10,69 +10,78 @@ namespace GermanBread.AppImageUpdater
         /// <summary>
         /// Whether or not the updater is ready
         /// </summary>
-        public static bool IsReadyForUpdate { get => ready; }
+        public static bool IsReadyForUpdate => _ready;
 
-        private static bool ready;
-        private static string downloadPath = Path.Combine(AppImageDir ?? Environment.CurrentDirectory, "." + AppDomain.CurrentDomain.FriendlyName + ".new");
+        private static bool _ready;
+        private static string _downloadPath = Path.Combine(AppImageDir ?? Environment.CurrentDirectory,
+            "." + AppDomain.CurrentDomain.FriendlyName + ".new");
 
         /// <summary>
         /// Downloads the update using the provided configuration
         /// </summary>
-        /// <param name="Config">The configuration</param>
+        /// <param name="config">The configuration</param>
         /// <returns>TRUE if successful; If FALSE use Updater.LastError to get the error</returns>
-        public static bool Download(UpdateConfig Config) {
+        public static bool Download(UpdateConfig config) {
             if (!IsAppImage) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", "This app is not packaged in an AppImage"));
+                logs.Add(new LogMessage(LogSeverity.Error, "Updater.Download", "This app is not packaged in an AppImage"));
                 return false;
             }
 
-            if (!string.IsNullOrEmpty(Config.DownloadedFilePath))
-                downloadPath = Path.IsPathRooted(Config.DownloadedFilePath) ? Config.DownloadedFilePath : Path.Combine(AppImageDir, Config.DownloadedFilePath);
+            if (!string.IsNullOrEmpty(config.DownloadedFilePath))
+                _downloadPath = Path.IsPathRooted(config.DownloadedFilePath) ? config.DownloadedFilePath : Path.Combine(AppImageDir, config.DownloadedFilePath);
 
-            if (!DownloadFile(Config.URL, downloadPath))
-                if (!string.IsNullOrEmpty(Config.AlternateURL)
-                 || !DownloadFile(Config.AlternateURL, downloadPath))
+            if (!DownloadFile(config.Url, _downloadPath))
+                if (!string.IsNullOrEmpty(config.AlternateUrl)
+                 || !DownloadFile(config.AlternateUrl, _downloadPath))
                     return false;
             
-            ready = true;
+            _ready = true;
             return true;
         }
         /// <summary>
         /// "Downloads" from a local file on the filesystem
         /// </summary>
-        /// <param name="FilePath">Path to the file</param>
+        /// <param name="filePath">Path to the file</param>
         /// <returns>TRUE if successful; If FALSE use Updater.LastError to get the error</returns>
-        public static bool Download(string FilePath) {
+        public static bool Download(string filePath) {
             if (!IsAppImage) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", "This app is not packaged in an AppImage"));
+                logs.Add(new LogMessage(LogSeverity.Error, "Updater.Download",
+                    "This app is not packaged in an AppImage"));
                 return false;
             }
 
             try {
-                string _file = Path.IsPathRooted(FilePath) ? FilePath : Path.Combine(AppImageDir, FilePath);
-                File.Copy(_file, downloadPath, true);
+                if (filePath != null)
+                {
+                    var file = Path.IsPathRooted(filePath) ? filePath : Path.Combine(AppImageDir, filePath);
+                    File.Copy(file, _downloadPath, true);
+                }
             } catch (Exception ex) {
-                logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
+                logs.Add(new LogMessage(LogSeverity.Error, "Updater.Download",
+                    $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error",
+                    ex));
                 return false;
             }
             
-            ready = true;
+            _ready = true;
             return true;
         }
 
-        internal static bool DownloadFile(string URL, string Destination) {
-            using (var client = new WebClient())
-            {
-                try {
-                    client.DownloadFile(URL, Destination);
-                } catch (WebException wex) {
-                    logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"The server responded with HTTP {wex.Status}", wex));
-                    return false;
-                } catch (Exception ex) {
-                    logs.Add(new LogMessage(Logseverity.Error, "Updater.Download", $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error", ex));
-                    return false;
-                }
+        private static bool DownloadFile(string url, string destination) {
+            using var client = new WebClient();
+            try {
+                client.DownloadFile(url, destination);
+            } catch (WebException wex) {
+                logs.Add(new LogMessage(LogSeverity.Error, "Updater.Download",
+                    $"The server responded with HTTP {wex.Status}", wex));
+                return false;
+            } catch (Exception ex) {
+                logs.Add(new LogMessage(LogSeverity.Error, "Updater.Download",
+                    $"An exception of type {ex.GetType()} was thrown, this is most likely an internal library error",
+                    ex));
+                return false;
             }
+
             return true;
         }
     }

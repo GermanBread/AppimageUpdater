@@ -1,48 +1,49 @@
 // System
+
 using System;
 
 namespace GermanBread.AppImageUpdater
 {
     public struct LogMessage
     {
-        public LogMessage(Logseverity Severity, string Source, string Message, Exception Exception) {
-            this.Source = Source;
-            this.Message = Message;
-            this.Severity = Severity;
-            this.Exception = Exception;
-            this.Timestamp = DateTime.UtcNow;
+        public LogMessage(LogSeverity severity, string source, string message, Exception exception) {
+            _source = source;
+            Message = message;
+            Severity = severity;
+            Exception = exception;
+            _timestamp = DateTime.UtcNow;
         }
-        public LogMessage(Logseverity Severity, string Source, string Message) {
-            this.Source = Source;
-            this.Exception = null;
-            this.Message = Message;
-            this.Severity = Severity;
-            this.Timestamp = DateTime.UtcNow;
+        public LogMessage(LogSeverity severity, string source, string message) {
+            _source = source;
+            Exception = null;
+            Message = message;
+            Severity = severity;
+            _timestamp = DateTime.UtcNow;
         }
 
-        public string Source;
-        public string Message;
+        private readonly string _source;
+        public readonly string Message;
         /// <summary>
         /// Value which indicates when this message was created. In UTC time.
         /// </summary>
-        public DateTime Timestamp;
-        public Exception Exception;
+        private readonly DateTime _timestamp;
+        public readonly Exception Exception;
         /// <summary>
         /// The severity which (in the case of errors) can indicate the severity of such. 0 = most urgent
         /// </summary>
-        public Logseverity Severity;
+        public readonly LogSeverity Severity;
 
         public override string ToString() {
-            string _output = "";
+            var output = null as string;
             
-            _output += $"{Timestamp.ToShortDateString()} {Timestamp.ToShortTimeString()}: ";
-            _output += $"[{Severity.ToString()}, 8] ";
-            _output += $"{Source} - ";
-            _output += $"{Message}";
+            output += $"{_timestamp.ToShortDateString()} {_timestamp.ToShortTimeString()}: ";
+            output += $"[{Severity.ToString()}, 8] ";
+            output += $"{_source} - ";
+            output += $"{Message}";
             if (Exception != null)
-                _output += $"\n({Exception})";
+                output += $"\n({Exception})";
             
-            return _output;
+            return output;
         }
     }
 }
