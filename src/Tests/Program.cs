@@ -7,18 +7,20 @@ using GermanBread.AppImageUpdater;
 
 namespace Tests
 {
-    class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
             // Used later
-            string _copy = Path.Combine(Updater.AppImageDir, "Updated.AppImage");
-            File.Copy(Updater.AppImagePath, _copy, true);
+            var copy = Path.Combine(Updater.AppImageDir, "Updated.AppImage");
+            File.Copy(Updater.AppImagePath, copy, true);
             
             // Remote server example
-            UpdateConfig _config = new UpdateConfig("https://github.com/ppy/osu/releases/latest/download/osu.AppImage");
-            _config.DownloadedFilePath = "test";
-            Updater.Download(_config);
+            var config = new UpdateConfig("https://github.com/ppy/osu/releases/latest/download/osu.AppImage")
+                {
+                    DownloadedFilePath = "test"
+                };
+            Updater.Download(config);
             Updater.Update();
 
             // Local file example
@@ -26,8 +28,8 @@ namespace Tests
             Updater.Update();
 
             // Remove the copy
-            if (File.Exists(_copy))
-                File.Delete(_copy);
+            if (File.Exists(copy))
+                File.Delete(copy);
             
             foreach (var log in Updater.Logs) {
                 Console.WriteLine(log.Message);
